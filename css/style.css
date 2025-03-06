@@ -12,6 +12,21 @@
     padding-top: 15px
 }
 
+.py-top-40{
+    padding-top: 40px;
+}
+
+.my-left{
+    margin-left: 18px;
+}
+
+.my-top{
+    margin-top: 10px;
+}
+
+.line-height{
+    line-height: 40px;
+}
 /* Spaziatura */
 
 * {
@@ -59,6 +74,7 @@ footer {
 
 
 .btn {
+    background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
     color: white;
@@ -71,9 +87,45 @@ ul {
     position: relative;
 }
 
-.home{
+/* Playlist  */
+
+.playlist{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.square-cross{
+    height: 30px;
+    width: 30px;
+    background-color: #A3A3A3;
     position: relative;
-    display: inline-block
+    display: inline-block;
+}
+
+.cross{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+}
+
+.top-sidebar {
+    height: 90%;
+}
+
+.low-sidebar {
+    height: 10%;
+}
+
+.hr-low-sidebar {
+    margin: 5%;
 }
 
 /*utility*/
@@ -82,14 +134,34 @@ ul {
     color: white;
 }
 
+.black-txt {
+    color: black;
+}
+
+.grey-txt {
+    color: #A3A3A3;
+}
+
 .font-family {
     font-size: 50px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size15 {
+    font-size: 15px;
 }
 
 .icons {
     width: 10%;
     position: absolute;
     
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .centered-text{
@@ -101,7 +173,6 @@ ul {
 }
 
 .centered-text-2{
-    color: white;
     font-size: 17px;
     position: absolute;
     top: 60%;
@@ -112,4 +183,14 @@ ul {
 .img-size-header{
     width: 10%;
 }
+
+.position-relative{
+    position: relative;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
 
