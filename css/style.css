@@ -31,6 +31,10 @@
 .line-height{
     line-height: 40px;
 }
+
+.list-image{
+    margin: 3% 0% 0% 3%;
+}
 /* Spaziatura */
 
 header {
@@ -150,22 +154,33 @@ ul {
     align-items: center;   
 }
 
+.current-icon{
+    width: 15%;
+    margin: 3% 0% 0% 11%;
+}
+
 .play{
     width: 50%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.progress{
-    height: 3px;
-    width: 50%;
-    border-radius: 10px;
-    background-color: #5A5A5A;
-    margin: 5% 25% 0% 25%;
-}
 
 .progress-bar{
     display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
 
+.progress-line{
+    height: 3px;
+    width: 40%;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+    margin: 0% 1% 0% 1%;
 }
 
 .space{
@@ -177,7 +192,10 @@ ul {
 
 .volume{
     width: 25%;
+    display: flex;
 }
+
+
 /*utility*/
 
 .icons {
@@ -265,4 +283,8 @@ ul {
 .current-song-size{
     width: 23%;
     margin: 10% 0% 0% 10%;
+}
+
+.vertical-align{
+    vertical-align: middle;
 }
