@@ -157,14 +157,19 @@ ul {
 
 .progress{
     height: 3px;
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
     background-color: #5A5A5A;
     margin: 5% 25% 0% 25%;
 }
 
+.progress-bar{
+    display: flex;
+
+}
+
 .space{
-    width: 30%;
+    width: 20%;
     background-color: #C1C1C1;
     z-index: 1;
     height: 100%;
