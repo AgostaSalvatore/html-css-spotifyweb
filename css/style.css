@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: lato;
+}
+
 .py-left{
     padding-left: 12px;
 }
@@ -75,6 +79,13 @@ footer {
 #content {
     overflow-y: auto;
     width: calc(100% - 300px);
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 1%;
 }
 
 .logo {
@@ -331,4 +342,11 @@ ul {
 
 .vertical-align{
     vertical-align: middle;
+}
+
+.highlights{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #ADFF2F;
 }
