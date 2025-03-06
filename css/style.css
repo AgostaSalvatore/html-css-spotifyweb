@@ -303,6 +303,8 @@ img{
     background-color: #C1C1C1;
     z-index: 1;
     height: 100%;
+    border-radius: 10px;
+    position: relative;
 }
 
 
@@ -435,4 +437,24 @@ a {
 
 .card-cont:hover .icon-none {
     display: block;
+}
+
+.space:hover .point {
+    display: block;
+}
+
+.vol-space:hover {
+    background-color: #ADFF2F;
+}
+
+.space:hover {
+    background-color: #ADFF2F;
+}
+
+.bigger-element:hover {
+    scale: 1.1;
+}
+
+.content-section div:hover {
+    color: white;
 }
