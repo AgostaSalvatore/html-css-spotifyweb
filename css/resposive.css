@@ -1,13 +1,19 @@
+/*Responsive*/
+
 @media screen and (max-width:1200px) {
-    .content-li{
+    .content-list{
         flex-wrap: wrap;
         gap: 8%;
-        line-height: 30px;
+        line-height: 70px;
     }
+
+
+
+
 }
 
 @media screen and (max-width:576px) {
-    .hidden{
+    .invisible{
         display: none;
     }
 
@@ -30,4 +36,5 @@
     .user{
         margin-top: 20px;
     }
+
 }
