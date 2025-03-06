@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/resposive.css">
+
 </head>
 
 <body>
@@ -22,46 +21,47 @@
         <div id="sidebar">
             <div class="upper-sidebar">
                 <div><img class="logo" src="./img/logo.svg" alt=""></div>
-                <div class="topside py-left py-top">
+                <div><img class="logo-small" src="./img/logo-small.svg" alt=""></div>
+                <div class="home py-left py-top">
                     <img class="img-size" src="./img/home.svg" style="" alt="">
-                    <span class="centered-text">Home</span>
+                    <span class="centered-text hidden">Home</span>
                 </div>
-                <div class="topside py-left py-top">
+                <div class="home py-left py-top">
                     <img class="img-size" src="./img/search.svg" style="" alt="">
-                    <span class="centered-text">Cerca</span>
+                    <span class="centered-text hidden">Cerca</span>
                 </div>
-                <div class="topside py-left py-top">
+                <div class="home py-left py-top">
                     <img class="img-size" src="./img/libreria.svg" style="" alt="">
-                    <span class="centered-text-2">La tua libreria</span>
+                    <span class="centered-text-2 hidden">La tua libreria</span>
                 </div>
-                <div class="col-white py-top-40 py-left font-size"><strong>PLAYLIST</strong></div>
+                <div class="white-txt py-top-40 py-left font-size hidden"><strong>PLAYLIST</strong></div>
                 <div class="playlist ">
-                    <div class="square-cross my-left my-top elem3d-element ">
-                        <div class="cross col-black"><strong>+</strong></div>
+                    <div class="square-cross my-left my-top elem3 hidden">
+                        <div class="cross black-txt hidden"><strong>+</strong></div>
                     </div>
-                    <span class=" elem2 col-grey-2 my-left my-top font-size-2"><strong>Crea
+                    <span class=" elem2 grey-txt-2 my-left my-top font-size-2 hidden"><strong>Crea
                             Playlist</strong></span>
                 </div>
                 <div>
-                    <ul class="col-white my-left py-top line-height">
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
-                        <li class="elem col-grey-2">Nome Playlist</li>
+                    <ul class="white-txt my-left py-top line-height hidden">
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
+                        <li class="elem1 grey-txt-2">Nome Playlist</li>
                     </ul>
                 </div>
             </div>
             <div class="end-sidebar">
-                <span class="col-grey-2 my-left elem"><i
-                        class="fa-regular fa-circle-down my-right"></i>Installa App</span>
-                <hr class="hr-end-sidebar">
+                <span class="grey-txt-2 my-left elem1"><i
+                        class="fa-regular fa-circle-down my-right"></i><span class="hidden">Installa App</span></span>
+                <hr class="hr-end-sidebar hidden">
                 <div class="user text-align bg-grey">
                     <img class="profile-size" src="./img/profile.svg" alt="">
                     <div class="name my-left-2">
-                        <div class="col-white white-space">John Doe</div>
+                        <div class="white-txt white-space hidden">John Doe</div>
                     </div>
                 </div>
 
@@ -72,36 +72,36 @@
                 <div class="btn">EFFETTUA L'UPGRADE</div>
             </header>
             <div class="content-list">
-                <div class="col-grey-2 elem">IN E<span class="evidence-underline">VIDE</span>NZA</div>
-                <div class="col-grey-2 elem">PODCAST</div>
-                <div class="col-grey-2 elem">CLASSIFICHE</div>
-                <div class="col-grey-2 elem">GENERI E MOOD</div>
-                <div class="col-grey-2 elem">NUOVE USCITE</div>
-                <div class="col-grey-2 elem">SCOPRI</div>
+                <div class="grey-txt-2 elem1">IN E<span class="evidence-underline">VIDE</span>NZA</div>
+                <div class="grey-txt-2 elem1">PODCAST</div>
+                <div class="grey-txt-2 elem1">CLASSIFICHE</div>
+                <div class="grey-txt-2 elem1">GENERI E MOOD</div>
+                <div class="grey-txt-2 elem1">NUOVE USCITE</div>
+                <div class="grey-txt-2 elem1">SCOPRI</div>
             </div>
-            <h2 class="col-white my-top-3p my-left-4">Recently played</h2>
+            <h2 class="white-txt my-top-2 my-left-4">Recently played</h2>
             <div class="main-center">
                 <div class="card">
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/metal_lifting.jpg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Heavy Metal</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">Heavy Metal</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-image">
                         <div class="card-cont">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                             <img src="./img/stranger.jpeg" alt="">
                         </div>
                         <div>
-                            <h3 class="col-white">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
-                            <p class="col-grey-2">Kyle Dixton & Michael Stein</p>
+                            <h3 class="white-txt">Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                            <p class="grey-txt-2">Kyle Dixton & Michael Stein</p>
                         </div>
                     </div>
                 </div>
@@ -109,11 +109,11 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/aquietplace.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">A quiet place</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">A quiet place</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
@@ -121,11 +121,11 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/split.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Split</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">Split</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
@@ -133,11 +133,11 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/cure.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">A cure for wellness</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">A cure for wellness</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
@@ -145,26 +145,26 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/sinister.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Sinister</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">Sinister</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 class="col-white my-top-3p my-left-4">Creato per John Doe</h2>
-            <p class="col-grey-2 my-left-4 my-top">più ascolti, più accurati saranno i suggerimenti</p>
+            <h2 class="white-txt my-top-2 my-left-4">Creato per John Doe</h2>
+            <p class="grey-txt-2 my-left-4 my-top">più ascolti, più accurati saranno i suggerimenti</p>
             <div class="main-center-middle">
                 <div class="card">
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/radar.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Release Radar</h3>
+                            <h3 class="white-txt">Release Radar</h3>
                         </div>
                     </div>
                 </div>
@@ -172,26 +172,26 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img src="./img/mixdaily.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Daily Mix</h3>
+                            <h3 class="white-txt">Daily Mix</h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 class="col-white my-top-3p my-left-4">Artisti più popolari</h2>
-            <p class="col-grey-2 my-left-4 my-top">più ascolti, più accurati saranno i suggerimenti</p>
+            <h2 class="white-txt my-top-2 my-left-4">Artisti più popolari</h2>
+            <p class="grey-txt-2 my-left-4 my-top">più ascolti, più accurati saranno i suggerimenti</p>
             <div class="main-center-down">
                 <div class="card">
                     <div class="card-image">
                         <div class="card-cont">
                             <img class="border-radius-autor" src="./img/youg.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white">Split</h3>
-                            <p class="col-grey-2">subtitle</p>
+                            <h3 class="white-txt">Split</h3>
+                            <p class="grey-txt-2">subtitle</p>
                         </div>
                     </div>
                 </div>
@@ -199,11 +199,11 @@
                     <div class="card-image">
                         <div class="card-cont">
                             <img class="border-radius-autor" src="./img/einaudi.jpeg" alt="">
-                            <i class="fa-regular fa-circle-play col-white icon-image"></i>
+                            <i class="fa-regular fa-circle-play white-txt icon-image"></i>
                         </div>
                         <div>
-                            <h3 class="col-white elem3">Einaudi</h3>
-                            <p class="col-grey-2">Classic Music</p>
+                            <h3 class="white-txt">Einaudi</h3>
+                            <p class="grey-txt-2">Classic Music</p>
                         </div>
                     </div>
                 </div>
@@ -213,49 +213,49 @@
     <!--Finisce Main-->
     <!--Inizio Footer-->
     <footer>
-            <div class="preview-image">
-                <img class="preview-size" src="./img/sinister.jpeg" alt="">
+            <div class="sinister-image">
+                <img class="sinister-size" src="./img/sinister.jpeg" alt="">
                 <div class="vertical-align list-image">
-                    <ul class="col-white">
+                    <ul class="white-txt">
                         <li><strong>Sinister</strong></li>
-                        <li class="col-grey elem3d-element">Brano Nome</li>
+                        <li class="grey-txt elem3">Brano Nome</li>
                     </ul>
                 </div>
-                <div class="preview-icon first">
-                    <span class="col-grey-2"><i class="fa-regular fa-heart my-right-30 elem"></i><i
-                            class="fa-regular fa-folder elem"></i></span>
+                <div class="sinister-icon first">
+                    <span class="grey-txt-2"><i class="fa-regular fa-heart my-right-30 elem1"></i><i
+                            class="fa-regular fa-folder elem1"></i></span>
                 </div>
             </div>
             <div class="play">
                 <div class="buttons">
-                    <i class="fa-solid fa-shuffle col-white font-size"></i>
-                    <i class="fa-solid fa-backward-step col-white font-size my-left-3"></i>
-                    <i class="fa-regular fa-circle-play col-white font-size-play elem4-element my-right-2 
+                    <i class="fa-solid fa-shuffle white-txt font-size"></i>
+                    <i class="fa-solid fa-backward-step white-txt font-size my-left-3"></i>
+                    <i class="fa-regular fa-circle-play white-txt font-size-play elem4 my-right-2 
                     my-left-3 "></i>
-                    <i class="fa-solid fa-forward-step col-white font-size my-right-2"></i>
-                    <i class="fa-solid fa-rotate-right col-white font-size"></i>
+                    <i class="fa-solid fa-forward-step white-txt font-size my-right-2"></i>
+                    <i class="fa-solid fa-rotate-right white-txt font-size"></i>
                 </div>
                 <div class="progress-bar">
-                    <div class="col-white">0:25</div>
+                    <div class="white-txt">0:25</div>
                     <div class="progress-line">
                         <div class="space">
-                            <span><i class="fa-solid fa-circle col-white point"></i></span>
+                            <span><i class="fa-solid fa-circle white-txt point"></i></span>
                         </div>
                     </div>
-                    <div class="col-white">4:35</div>
+                    <div class="white-txt">4:35</div>
                 </div>
             </div>
-            <div class="volume">
-                <div class="volume-icon">
+            <div class="vol hidden">
+                <div class="vol-icon">
                     <div class="icon-content">
-                        <span class="col-white my-right-20"><i class="fa-solid fa-list"></i></span>
-                        <span class="col-white my-right-20"><i class="fa-solid fa-desktop"></i></span>
-                        <span class="col-white"><i class="fa-solid fa-volume-high"></i></span>
+                        <span class="white-txt my-right-20"><i class="fa-solid fa-list"></i></span>
+                        <span class="white-txt my-right-20"><i class="fa-solid fa-desktop"></i></span>
+                        <span class="white-txt"><i class="fa-solid fa-vol-high"></i></span>
                     </div>
                 </div>
-                <div class="volume-bar">
-                    <div class="volume-space">
-                        <span><i class="fa-solid fa-circle col-white point-2"></i></span>
+                <div class="vol-bar">
+                    <div class="vol-space">
+                        <span><i class="fa-solid fa-circle white-txt point-2"></i></span>
                     </div>
                 </div>
             </div>

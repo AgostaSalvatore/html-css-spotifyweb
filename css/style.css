@@ -4,7 +4,62 @@
     box-sizing: border-box;
 }
 
-* {
+.py-left {
+    padding-left: 17px;
+}
+
+.py-top {
+    padding-top: 15px
+}
+
+.py-top-40 {
+    padding-top: 40px;
+}
+
+
+.my-left {
+    margin-left: 17px;
+}
+
+.my-left-2 {
+    margin-left: 60%;
+}
+
+.my-right {
+    margin-right: 10px;
+}
+
+.my-right-2 {
+    margin-right: 30px;
+}
+
+.my-left-3 {
+    margin-left: 30px;
+}
+
+.my-left-4 {
+    margin-left: 2%;
+}
+
+.my-top {
+    margin-top: 10px;
+}
+
+.my-top-2 {
+    margin-top: 3%;
+}
+
+.my-right-30 {
+    margin-right: 30%;
+}
+
+.my-right-20{
+    margin-right: 20px;
+}
+
+/* spaziatura */
+
+body {
     font-family: 'Lato'
 }
 
@@ -113,10 +168,19 @@ img {
 
 
 .logo {
-    width: 60%;
+    width: 180px;
     padding: 10px;
     margin-left: 8px;
     padding-bottom: 20px;
+    display: block;
+}
+
+.logo-small{
+    width: 55px;
+    padding: 10px;
+    margin-left: 8px;
+    padding-bottom: 20px;
+    display: none; 
 }
 
 
@@ -134,9 +198,8 @@ ul {
     position: relative;
 }
 
-.topside {
+.home {
     position: relative;
-    display: inline-block
 }
 
 .square-cross {
@@ -175,21 +238,21 @@ ul {
 }
 
 .user {
-    width: 10%;
+    width: 30px;
     border: 1px solid white;
     border-radius: 50%;
     height: 24%;
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
-.preview {
+.sinister {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.preview-image {
+.sinister-image {
     width: 300px;
     display: flex;
     align-items: center;
@@ -200,8 +263,8 @@ ul {
     margin: 3% 0% 0% 3%;
 }
 
-.preview-icon {
-    width: 14%;
+.sinister-icon {
+    width: 20%;
     margin: 3% 0% 0% 11%;
 }
 
@@ -250,14 +313,14 @@ ul {
     position: relative;
 }
 
-.volume {
+.vol {
     width: 300px;
     display: flex;
     align-items: center;
-    padding-top: 1%;
+    
 }
 
-.volume-bar {
+.vol-bar {
     height: 3px;
     width: 115px;
     border-radius: 10px;
@@ -265,7 +328,7 @@ ul {
     margin: 0% 3% 0% 1%;
 }
 
-.volume-space {
+.vol-space {
     width: 20%;
     background-color: #C1C1C1;
     z-index: 1;
@@ -274,15 +337,12 @@ ul {
     position: relative;
 }
 
-.volume-icon {
+.vol-icon {
     display: flex;
     width: 105px;
     margin-right: 3%;
 
 }
-
-
-
 
 .point {
     position: absolute;
@@ -301,33 +361,21 @@ ul {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*utility*/
 
-.col-white {
+.white-txt {
     color: white;
 }
 
-.col-black {
+.black-txt {
     color: #000000;
 }
 
-.col-grey {
+.grey-txt {
     color: #838383;
 }
 
-.col-grey-2 {
+.grey-txt-2 {
     color: #7D7F84;
 }
 
@@ -349,7 +397,7 @@ ul {
     color: #7D7F84;
     font-size: 17px;
     position: absolute;
-    top: 62%;
+    top: 60%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
@@ -358,19 +406,19 @@ ul {
     color: #7D7F84;
     font-size: 17px;
     position: absolute;
-    top: 62%;
+    top: 60%;
     left: 35%;
     transform: translate(-50%, -50%);
 }
 
-
+/* FULL SIZE */
 
 .img-size {
-    width: 10%;
+    width: 30px;
     opacity: 0.5;
 }
 
-.preview-size {
+.sinister-size {
     width: 45px;
     margin: 3% 0% 0% 9%;
 }
@@ -378,22 +426,6 @@ ul {
 .profile-size {
     width: 70%;
     margin-left: 14%;
-}
-
-.py-left {
-    padding-left: 17px;
-}
-
-.py-top {
-    padding-top: 15px
-}
-
-.py-top-40 {
-    padding-top: 40px;
-}
-
-.text-align {
-    text-align: center;
 }
 
 .font-size {
@@ -408,44 +440,8 @@ ul {
     font-size: 30px;
 }
 
-.my-left {
-    margin-left: 17px;
-}
-
-.my-left-2 {
-    margin-left: 60%;
-}
-
-.my-right {
-    margin-right: 10px;
-}
-
-.my-right-2 {
-    margin-right: 30px;
-}
-
-.my-left-3 {
-    margin-left: 30px;
-}
-
-.my-left-4 {
-    margin-left: 2%;
-}
-
-.my-top {
-    margin-top: 10px;
-}
-
-.my-top-3p {
-    margin-top: 3%;
-}
-
-.my-right-30 {
-    margin-right: 30%;
-}
-
-.my-right-20{
-    margin-right: 20px;
+.text-align {
+    text-align: center;
 }
 
 .line-height {
@@ -476,13 +472,16 @@ ul {
     display: none;
 }
 
+
+
+
 /*hover*/
 
 .btn:hover {
     scale: 1.1;
 }
 
-.elem:hover, .playlist:hover .elem2 {
+.elem1:hover {
     color: white;
 }
 
@@ -490,25 +489,20 @@ ul {
     background-color: white;
 }
 
+.playlist:hover .elem2 ,.home:hover .centered-text-2, .home:hover .centered-text {
+    color: white;
+}
 
-.topside:hover img {
+.home:hover img {
     opacity: 1;
 }
 
-.topside:hover .centered-text {
-    color: white;
-}
-
-.topside:hover .centered-text-2 {
-    color: white;
-}
-
-.elem3:hover {
+.elem3-element:hover {
     color: white;
     text-decoration: underline;
 }
 
-.elem4:hover {
+.elem4-element:hover {
     scale: 1.1;
 }
 
@@ -516,7 +510,7 @@ ul {
     background-color: #ADFF2F;
 }
 
-.volume-space:hover {
+.vol-space:hover {
     background-color: #ADFF2F;
 }
 
@@ -524,7 +518,7 @@ ul {
     display: block;
 }
 
-.volume-space:hover .point-2 {
+.vol-space:hover .point-2 {
     display: block;
 }
 
