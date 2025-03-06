@@ -203,6 +203,9 @@ img{
     display: flex;
 }
 
+.br-autori{
+    border-radius: 50%;
+}
 /* footer */
 
 .current-song{
