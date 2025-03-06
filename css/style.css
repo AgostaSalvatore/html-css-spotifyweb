@@ -189,10 +189,18 @@ img{
     width: 100%;
 }
 
-.center{
+.main-top{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-middle{
+    display: flex;
+}
+
+.main-low{
+    display: flex;
 }
 
 /* footer */
