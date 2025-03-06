@@ -33,10 +33,6 @@
 }
 /* Spaziatura */
 
-* {
-    font-family: 'Lato'
-}
-
 header {
     position: sticky;
     height: 100px;
@@ -141,6 +137,42 @@ ul {
     margin-left: 20px;
 }
 
+/* footer */
+
+.current-song{
+    width: 100%;
+    display: flex;
+}
+
+.current-song-image{
+    width: 10%;
+    display: flex;
+    align-items: center;   
+}
+
+.play{
+    width: 50%;
+    text-align: center;
+}
+
+.progress{
+    height: 3px;
+    width: 60%;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+    margin: 5% 25% 0% 25%;
+}
+
+.space{
+    width: 30%;
+    background-color: #C1C1C1;
+    z-index: 1;
+    height: 100%;
+}
+
+.volume{
+    width: 25%;
+}
 /*utility*/
 
 .icons {
@@ -223,4 +255,9 @@ ul {
 
 .font-size15 {
     font-size: 15px;
+}
+
+.current-song-size{
+    width: 23%;
+    margin: 10% 0% 0% 10%;
 }
