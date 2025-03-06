@@ -4,7 +4,17 @@
     box-sizing: border-box;
 }
 
-body {
+.py-left{
+    padding-left: 12px;
+}
+
+.py-top{
+    padding-top: 15px
+}
+
+/* Spaziatura */
+
+* {
     font-family: 'Lato'
 }
 
@@ -33,22 +43,18 @@ footer {
     height: 100%;
     width: 300px;
     background-color: #000000;
-
-
-
-
 }
 
 #content {
     overflow-y: auto;
     width: calc(100% - 300px);
-
 }
 
 .logo {
-    width: 50%;
+    width: 60%;
     padding: 10px;
     margin-left: 8px;
+    padding-bottom: 20px;
 }
 
 
@@ -65,14 +71,14 @@ ul {
     position: relative;
 }
 
-
-
-
-
+.home{
+    position: relative;
+    display: inline-block
+}
 
 /*utility*/
 
-.col-white {
+.white-txt {
     color: white;
 }
 
@@ -85,3 +91,25 @@ ul {
     position: absolute;
     
 }
+
+.centered-text{
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-text-2{
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.img-size-header{
+    width: 10%;
+}
+
