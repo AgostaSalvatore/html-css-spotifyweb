@@ -28,11 +28,19 @@
     margin-top: 10px;
 }
 
+.my-right-btn{
+    margin-right: 20px;
+}
+
+.my-left-btn{
+    margin-left: 30px;
+}
+
 .line-height{
     line-height: 40px;
 }
 
-.list-image{
+.list-mar{
     margin: 3% 0% 0% 3%;
 }
 /* Spaziatura */
@@ -149,7 +157,7 @@ ul {
 }
 
 .current-song-image{
-    width: 10%;
+    width: 25%;
     display: flex;
     align-items: center;   
 }
@@ -167,12 +175,20 @@ ul {
     justify-content: center;
 }
 
+.buttons{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
 
 .progress-bar{
     display: flex;
     position: relative;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 }
 
 .progress-line{
@@ -190,9 +206,34 @@ ul {
     height: 100%;
 }
 
-.volume{
+.vol{
     width: 25%;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.vol-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3%;
+    width: 15%;
+}
+
+.vol-bar{
+    height: 3px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+    margin: 0% 3% 0% 1%;
+}
+
+.vol-space{
+    width: 20%;
+    background-color: #C1C1C1;
+    z-index: 1;
+    height: 100%;
 }
 
 
@@ -276,13 +317,16 @@ ul {
     font-size: 20px;
 }
 
-.font-size15 {
+.font-size-15 {
     font-size: 15px;
 }
 
+.font-size-30 {
+    font-size: 30px;
+}
 .current-song-size{
-    width: 23%;
-    margin: 10% 0% 0% 10%;
+    width: 10%; 
+    margin: 4% 0% 0% 10%;
 }
 
 .vertical-align{
