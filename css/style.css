@@ -24,12 +24,24 @@ body{
     margin-left: 18px;
 }
 
-.my-left-5{
+.my-left-10px{
     margin-left: 10px;
+}
+
+.my-left-2p{
+    margin-left: 2%;
 }
 
 .my-top{
     margin-top: 10px;
+}
+
+.my-top-3p{
+    margin-top: 3%;
+}
+
+.my-right {
+    margin-right: 10px;
 }
 
 .my-right-btn{
@@ -158,6 +170,29 @@ ul {
     height: 24%;
     display:flex;
     margin-left: 20px;
+}
+
+/* Main */
+
+.card{
+    width: 13%;
+    margin: 2% 0% 0% 2%;
+}
+
+.card-image{
+    text-align: center;
+    line-height: 30px;  
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.center{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* footer */
@@ -349,4 +384,9 @@ ul {
     text-underline-offset: 6px;
     text-decoration-thickness: 2px;
     text-decoration-color: #ADFF2F;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
