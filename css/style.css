@@ -59,6 +59,14 @@ body{
 .list-mar{
     margin: 3% 0% 0% 3%;
 }
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
 /* Spaziatura */
 
 header {
@@ -208,6 +216,12 @@ img{
     border-radius: 50%;
 }
 
+.icons {
+    width: 10%;
+    position: absolute;
+    
+}
+
 .icon-none {
     color: white;
     position: absolute;
@@ -310,11 +324,8 @@ img{
 
 /*utility*/
 
-.icons {
-    width: 10%;
-    position: absolute;
-    
-}
+
+
 
 .bold{
     font-weight: bold;
