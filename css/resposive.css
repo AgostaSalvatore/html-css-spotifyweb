@@ -7,9 +7,16 @@
         line-height: 70px;
     }
 
+    .main-center{
+        flex-wrap: wrap;
+    }
 
+}
 
-
+@media screen and (max-height: 1000px) {
+    .hidden1000px{
+        display: none;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -37,4 +44,13 @@
         margin-top: 20px;
     }
 
+}
+
+
+
+@media screen and (max-height: 355px) {
+
+    .hidden355px{
+        display: none;
+    }
 }

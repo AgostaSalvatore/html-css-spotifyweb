@@ -120,7 +120,6 @@ footer {
 .main-center {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .card {
@@ -371,6 +370,10 @@ ul {
 
 .grey-txt {
     color: #838383;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .grey-txt-2 {
